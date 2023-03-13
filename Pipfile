@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 numpy = "*"
+scipy = "*"
 xarray = "*"
+netCDF4 = "*"
 zarr = "===2.10.3"
 dask = {extras = ["distributed"], version = "*"}
 rasterio = "*"
